@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.modal {
+  margin-top: 1rem;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 8px;
+}
+button {
+  margin: 0.5rem;
+  padding: 0.5, 1;
+  font-weight: bold;
+  cursor: pointer;
+}
