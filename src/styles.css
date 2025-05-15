@@ -10,6 +10,7 @@
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 1rem 0;
+  background: #8e8e8c;
 }
 ul {
   list-style: none;
@@ -17,7 +18,8 @@ ul {
 }
 .modal {
   margin-top: 1rem;
-  background: #eee;
+  background: #047700;
+  color: white;
   padding: 1rem;
   border-radius: 8px;
 }
@@ -26,4 +28,37 @@ button {
   padding: 0.5, 1;
   font-weight: bold;
   cursor: pointer;
+}
+.class-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+.class-option {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: rgb(58, 58, 58) 2px solid;
+  background: slategrey;
+}
+.classes {
+  width: 100px;
+  height: max-content;
+  margin-right: 16px;
+}
+.class-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+.class-select-title {
+  font-weight: bold;
+  font-size: 28px;
+  position: relative;
+  right: 8px;
+  z-index: -1;
 }
